@@ -141,6 +141,29 @@
   line-height: 28px;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  transition: opacity 0.15s ease;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: black;
+}
+
+.carousel-control-prev.active,
+.carousel-control-next.active {
+  color: white;
+  background-color: blue;
+}
+
+.carousel-control-prev {
+  left: auto;
+  right: 6%;
+}
+
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
   color: #fff;
